@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html class="cor-site">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bota</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/5.2.3/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Cabeçalho-->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand fonte-Montserrat cor-especial" href="#">Bota</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <ul class="navbar-nav align-items-center">
+          <li><a class="nav-link" href="#">início </a></li>
+          <li><a class="nav-link" href="#secao-cursos">meus bots</a></li>
+          <li><a class="nav-link" href="#secao-comunidades">meus pedidos </a></li>
+          <li><a class="nav-link" href="#secao-anotacoes">catálogo de empresas</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--Chat-->
+    <section class="chats">
+      <div class="titulo" id="secao-chats">
+        <h2 class="text-center h2 fonte-Montserrat cor-especial pt-5">Meus bots</h2>
+        <p class="text-center text-secondary pb-3">Suas conversas no Bota</p>
+      </div>
+      <div class="container">
+        <div class="row clearfix">
+          <div class="col-lg-12">
+              <div class="card-especial chat-app">
+                  <div id="plist" class="people-list">
+                      <div class="input-group">
+                          <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-search"></i></span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="Procurar...">
+                      </div>
+                      <ul class="list-unstyled chat-list mt-2 mb-0">
+                          <li class="clearfix">
+                              <img src="src/img/abolicao.jpg" alt="avatar">
+                              <div class="about">
+                                  <div class="name">Esfiharia Abolição</div>
+                                  <div class="status"> <i class="fa fa-circle offline"></i> Online há 7 minutos</div>                                            
+                              </div>
+                          </li>
+                          <li class="clearfix active">
+                            <img src="src/img/tamandua.jpg" alt="avatar">
+                            <div class="about">
+                                <div class="name">Tamandua Sex Shop</div>
+                                <div class="status"> <i class="fa fa-circle online"></i> Disponível </div>
+                            </div>
+                        </li> 
+                          <li class="clearfix">
+                              <img src="src/img/ramses.jpg" alt="avatar">
+                              <div class="about">
+                                  <div class="name">Ramsés II Motel</div>
+                                  <div class="status"> <i class="fa fa-circle online"></i> Disponível </div>
+                              </div>
+                          </li>                                    
+                          <li class="clearfix">
+                              <img src="src/img/caap.jpg" alt="avatar">
+                              <div class="about">
+                                  <div class="name">CAAP UFABC</div>
+                                  <div class="status"> <i class="fa fa-circle offline"></i> Online há 10 horas </div>
+                              </div>
+                          </li>
+                          <li class="clearfix">
+                              <img src="src/img/cookie.webp" alt="avatar">
+                              <div class="about">
+                                  <div class="name">Doces do Pina</div>
+                                  <div class="status"> <i class="fa fa-circle online"></i> Online </div>
+                              </div>
+                          </li>
+                          <li class="clearfix">
+                              <img src="src/img/ka.jpeg" alt="avatar">
+                              <div class="about">
+                                  <div class="name">Benites Artes</div>
+                                  <div class="status"> <i class="fa fa-circle offline"></i> Online há 30 minutos </div>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="chat">
+                      <div class="chat-header clearfix">
+                          <div class="row">
+                              <div class="col-lg-6">
+                                  <a href="javascript:void(0);" data-toggle="modal" data-target="#view_info">
+                                      <img src="src/img/tamandua.jpg" alt="avatar">
+                                  </a>
+                                  <div class="chat-about">
+                                      <h6 class="m-b-0">Tamandua Sex Shop</h6>
+                                      <small>Online</small>
+                                  </div>
+                              </div>
+                              <div class="col-lg-6 hidden-sm text-right">
+                                  <a href="javascript:void(0);" class="btn btn-outline-secondary"><i class="fa fa-camera"></i></a>
+                                  <a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-image"></i></a>
+                                  <a href="javascript:void(0);" class="btn btn-outline-info"><i class="fa fa-laptop"></i></a>
+                                  <a href="javascript:void(0);" class="btn btn-outline-warning"><i class="fa fa-question"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="chat-history">
+                          <ul class="m-b-0">
+                              <li class="clearfix">
+                                  <div class="message-data text-right">
+                                      <span class="message-data-time">10h10, Hoje</span>
+                                      <img src="src/img/mel.jpg" alt="avatar">
+                                  </div>
+                                  <div class="message other-message float-right"> Oii. Bom dia!</div>
+                              </li>
+                              <li class="clearfix">
+                                  <div class="message-data">
+                                      <span class="message-data-time">10h10, Hoje</span>
+                                  </div>
+                                  <div class="message my-message">Olá! Você está conversando com o Bot do Tamandua Sex Shop.
+                                    Digite 1 para continuar com o Bot e 2 para falar com algum atendente.
+                                  </div>                                   
+                              </li>  
+                              <li class="clearfix">
+                                <div class="message-data text-right">
+                                    <span class="message-data-time">10h12, Hoje</span>
+                                    <img src="src/img/mel.jpg" alt="avatar">
+                                </div>
+                                <div class="message other-message float-right">1</div>
+                              </li>                             
+                              <li class="clearfix">
+                                  <div class="message-data">
+                                      <span class="message-data-time">10h12, Hoje</span>
+                                  </div>
+                                  <div class="message my-message">Buscando Sex Shop tão cedo? Sua safada!
+                                    Com o que posso ajudar?
+                                    Digite 1 para vibradores, 2 para géis e lubrificantes, 3 para BDSM, 
+                                    4 para Bonecas Realistas, 5 para Massageadores de próstata ou 6 para outros produtos.
+                                  </div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data text-right">
+                                    <span class="message-data-time">10h14, Hoje</span>
+                                    <img src="src/img/mel.jpg" alt="avatar">
+                                </div>
+                                <div class="message other-message float-right">1</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data">
+                                    <span class="message-data-time">10h15, Hoje</span>
+                                </div>
+                                <div class="message my-message">Poxa, coitada, o marido dela é broxa. Você gostaria de ver nosso catálogo ou
+                                  já tem algo em mente?
+                                </div>
+                              </li>   
+                              <li class="clearfix">
+                                <div class="message-data text-right">
+                                    <span class="message-data-time">10h16, Hoje</span>
+                                    <img src="src/img/mel.jpg" alt="avatar">
+                                </div>
+                                <div class="message other-message float-right">Já tenho algo em mente</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data">
+                                    <span class="message-data-time">10h16, Hoje</span>
+                                </div>
+                                <div class="message my-message"> Essa sabe bem o que quer! Fala aí o tamanho do consolo!
+                                </div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data text-right">
+                                    <span class="message-data-time">10h17, Hoje</span>
+                                    <img src="src/img/mel.jpg" alt="avatar">
+                                </div>
+                                <div class="message other-message float-right">20cm</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data">
+                                    <span class="message-data-time">10h18, Hoje</span>
+                                </div>
+                                <div class="message my-message"> E a cor?
+                                </div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data text-right">
+                                    <span class="message-data-time">10h18, Hoje</span>
+                                    <img src="src/img/mel.jpg" alt="avatar">
+                                </div>
+                                <div class="message other-message float-right">roxo</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data">
+                                    <span class="message-data-time">10h19, Hoje</span>
+                                </div>
+                                <div class="message my-message"> Digite o modelo!
+                                </div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data text-right">
+                                    <span class="message-data-time">10h19, Hoje</span>
+                                    <img src="src/img/mel.jpg" alt="avatar">
+                                </div>
+                                <div class="message other-message float-right">Prazeres intensos</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data">
+                                    <span class="message-data-time">10h19, Hoje</span>
+                                </div>
+                                <div class="message my-message">Legal! Você tá quase lá! Clica aqui para conferir os modelos selecionados. Digite o número do produto ou "sair" para retornar ao menu.</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data text-right">
+                                    <span class="message-data-time">10h21, Hoje</span>
+                                    <img src="src/img/mel.jpg" alt="avatar">
+                                </div>
+                                <div class="message other-message float-right">5</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data">
+                                    <span class="message-data-time">10h22, Hoje</span>
+                                </div>
+                                <div class="message my-message">Produto adicionado ao carrinho. Deseja comprar algo mais ou podemos fechar a conta?</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data text-right">
+                                    <span class="message-data-time">10h22, Hoje</span>
+                                    <img src="src/img/mel.jpg" alt="avatar">
+                                </div>
+                                <div class="message other-message float-right">Fechar a conta</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data">
+                                    <span class="message-data-time">10h23, Hoje</span>
+                                </div>
+                                <div class="message my-message">Podemos enviar para o endereço padrão da sua conta?</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data text-right">
+                                    <span class="message-data-time">10h23, Hoje</span>
+                                    <img src="src/img/mel.jpg" alt="avatar">
+                                </div>
+                                <div class="message other-message float-right">Sim</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data">
+                                    <span class="message-data-time">10h24, Hoje</span>
+                                </div>
+                                <div class="message my-message">Você prefere uma entrega mais quente ou discreta?</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data text-right">
+                                    <span class="message-data-time">10h24, Hoje</span>
+                                    <img src="src/img/mel.jpg" alt="avatar">
+                                </div>
+                                <div class="message other-message float-right">Discreta</div>
+                              </li>
+                              <li class="clearfix">
+                                <div class="message-data">
+                                    <span class="message-data-time">10h24, Hoje</span>
+                                </div>
+                                <div class="message my-message">Perfeito! Compra finalizada! Como foi seu primeiro pedido,
+                                  ganhou 10 de desconto na próxima compra (além de prazeres intensos). Até mais!
+                                </div>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="chat-message clearfix">
+                          <div class="input-group mb-0">
+                              <div class="input-group-prepend">
+                                  <span class="input-group-text"><i class="fa fa-send"></i></span>
+                              </div>
+                              <input type="text" class="form-control" placeholder="Digite sua mensagem">                                    
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-secondary p-3">
+    <p class="text-light m-0 text-center">Bota</a></p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src=""></script>
+
+</body>
+</html>
+
